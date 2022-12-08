@@ -1,7 +1,7 @@
 #include <studio.h>
 /**
- * main - Entry
- * Return: Always 0
+ * main - EntryPoint
+ * Return: This prrogram should end with the value 0
  */
 int main(void)
 {
