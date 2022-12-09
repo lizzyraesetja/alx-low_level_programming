@@ -1,4 +1,4 @@
-#include "studio.h"
+#include <stdio.h>
 /**
  * main - EntryPoint
  * Return: This prrogram should end with the value 0
