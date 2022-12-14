@@ -13,11 +13,11 @@ int main(void)
 	{
 		if (y == 0)
 		{
-			printf("%d\n", j);
+			printf("%ld\n", j);
 		}
 		else if (y == 1)
 		{
-			printf(", %d\n", k);
+			printf(", %ld\n", k);
 		}
 		else
 		{
