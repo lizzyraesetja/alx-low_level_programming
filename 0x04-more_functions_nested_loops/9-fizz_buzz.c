@@ -37,7 +37,7 @@ int main(void)
 		{
 			printf("%d ", i);
 		}
-		printf("\n");
+		putchar(i == 100 ? '\n'  : ' ');
 	}
 	return (0);
 }
