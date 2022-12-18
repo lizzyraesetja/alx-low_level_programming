@@ -9,9 +9,10 @@
 int main(void)
 {
 	long int ze, lo;
+
 	ze = 612852475143;
 
-	for ( lo = 2; lo <= ze; lo++)
+	for (lo = 2; lo <= ze; lo++)
 	{
 		if (ze % lo == 0)
 		{
