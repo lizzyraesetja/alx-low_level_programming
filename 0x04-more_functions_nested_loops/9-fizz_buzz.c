@@ -2,42 +2,35 @@
 #include <stdio.h>
 /**
  * main - prints the number from 1 to 100
- * 3 multiplers print Fizz intead of a number
- * 5 print Buzz instead of number
- * 3 & 5 print FizzBuzz instead of number
  * Return: Always 0
  */
 
 int main(void)
 {
 	int i;
-	char f[] = "Fizz";
-	char b[] = "Buzz";
-	char fb[] = "FizzBuzz";
 
-	for (i = 1; i <= 100; i++)
+	i = 1;
+	printf("%d ", i);
+
+	for (i = 2; i <= 100; i++)
 	{
-		if (i == 100)
+		if ((i % 3 == 0) && (i % 5 == 0))
 		{
-			printf("%s ", f);
-		}
-		else if ((i % 3 == 0) && (i % 5 == 0))
-		{
-			printf("%s ", fb);
+			printf(" FizzBuzz ");
 		}
 		else if (i % 3 == 0)
 		{
-			printf("%s ", f);
+			printf(" Fizz ");
 		}
 		else if (i % 5 == 0)
 		{
-			printf("%s ", b);
+			printf(" Buzz ");
 		}
 		else
 		{
 			printf("%d ", i);
 		}
-		putchar(i == 100 ? '\n'  : ' ');
 	}
+	printf("\n");
 	return (0);
 }
