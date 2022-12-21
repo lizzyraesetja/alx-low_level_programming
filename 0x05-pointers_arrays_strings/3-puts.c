@@ -1,5 +1,6 @@
 #include "main.h"
-
+#include <unistd.h>
+#include <stdio.h>
 /**
  * _puts - function that prints a string, followed by a new line,
  *
@@ -12,7 +13,7 @@ void _puts(char *str)
 
 	for (p = 0; str[p] != '\0'; p++)
 	{
-		_putchar(str[p]);
+		putchar(str[p]);
 	}
-	_putchar('\n');
+	putchar('\n');
 }
