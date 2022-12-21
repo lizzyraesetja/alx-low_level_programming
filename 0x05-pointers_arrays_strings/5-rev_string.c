@@ -24,9 +24,9 @@ void rev_string(char *s)
 
 	while (k < j)
 	{
-		s[j] = temp;
 		temp = s[k];
 		s[k] = s[j];
+		s[j] = temp;
 		k++;
 		j--;
 	}
