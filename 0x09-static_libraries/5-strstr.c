@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stddef.h>
-
 /**
  * _strstr - Locates a substrin
  * @haystack: The string to be searched.
