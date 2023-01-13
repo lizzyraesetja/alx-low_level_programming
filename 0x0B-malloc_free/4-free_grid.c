@@ -1,7 +1,5 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
 
 /**
  * free_grid - frees the memory allocated by a 2D array
@@ -9,7 +7,7 @@
  * @grid: the 2D array
  * @height: height of the 2D array
  *
- * Return: a pointer to the array or NULL if the process fails
+ * Return: a pointer to the array
  */
 void free_grid(int **grid, int height)
 {
