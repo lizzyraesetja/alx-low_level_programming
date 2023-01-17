@@ -1,5 +1,6 @@
 #include "dog.h"
 #include <stdlib.h>
+#include <unistd.h>
 
 /**
  * new_dog - entry point
