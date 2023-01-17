@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "dog.h"
+#include <unistd.h>
 
 /**
  * print_dog - function with 1 argument
