@@ -31,5 +31,5 @@ list_t *insert_nodeint_at_index(list_t **head, unsigned int idx, int n);
 int delete_nodeint_at_index(list_t **head, unsigned int index);
 list_t *reverse_list_t(list_t **head);
 int _putchar(char c);
-
+list_t *add_nodeint(list_t **head, const int n);
 #endif
