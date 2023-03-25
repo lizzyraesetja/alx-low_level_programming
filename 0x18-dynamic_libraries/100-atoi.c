@@ -1,4 +1,7 @@
 #include "main.h"
+#include <stdlib.h>
+#include <studio.h>
+
 /**
  * _atoi - convert string to numbers
  *
